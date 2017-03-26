@@ -8,4 +8,4 @@ learn how to set up rpc service by thrift between different language
 + <code>thrift -r --gen php:server test.thrift</code> #生成PHP服务端接口代码有所不一样
 
 而对于golang而言
-+ `thrift -r --gen go *.thrift` 和  `thrift -r --gen go:server *.thrift` 生成的代码没有区别 
++ 并 不支持 `thrift -r --gen go:server *.thrift` 语法 ，只有`thrift -r --gen go *.thrift`
